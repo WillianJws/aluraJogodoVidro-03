@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: rgb(243, 241, 241);
+    position: relative;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+    width: auto;
+  }
+  
+  /* Container with the background image */
+  .container {
+    background: url('https://criticalhits.com.br/wp-content/uploads/2024/08/ponte-de-vidro-2-round-6.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Content div for text and button */
+  .content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.219);
+    padding: 20px 40px;
+    border-radius: 8px;
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #fc0101;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: rgb(124, 255, 2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1ABC9C;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+  
